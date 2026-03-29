@@ -6,7 +6,7 @@
 
 Search aggregator that queries multiple engines and shows results in one place. You can add custom search engines.
 
-Built with [Tanstack Solid Start](https://tanstack.com/solid/start).
+Built with [Tanstack Solid Start](https://tanstack.com/start/latest/docs/framework/solid/overview).
 
 **Alpha status.** Not intended for production use yet.
 
