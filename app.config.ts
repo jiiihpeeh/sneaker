@@ -1,4 +1,4 @@
-import { defineConfig } from "@tanstack/solid-start/config";
+import { defineConfig } from "@tanstack/start/config";
 
 export default defineConfig({
   ssr: true,
