@@ -1,0 +1,14 @@
+node_modules
+dist
+.output
+.git
+*.log
+.env
+.env.*
+!.env.example
+.vscode
+.DS_Store
+coverage
+*.test.ts
+*.spec.ts
+__tests__

@@ -1,0 +1,59 @@
+{
+  "name": "sneaker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --port 3000",
+    "build": "vite build",
+    "start": "PORT=4444 node dist/server/server.js",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "format": "biome format",
+    "lint": "biome lint",
+    "check": "biome check"
+  },
+  "dependencies": {
+    "@sentry/solid": "^10.42.0",
+    "@t3-oss/env-core": "^0.13.10",
+    "@tailwindcss/vite": "^4.1.18",
+    "@tanstack/router-plugin": "^1.133.21",
+    "@tanstack/solid-form": "latest",
+    "@tanstack/solid-query": "latest",
+    "@tanstack/solid-query-devtools": "latest",
+    "@tanstack/solid-router": "latest",
+    "@tanstack/solid-router-devtools": "latest",
+    "@tanstack/solid-router-ssr-query": "latest",
+    "@tanstack/solid-start": "latest",
+    "better-auth": "^1.5.3",
+    "cheerio": "^1.2.0",
+    "country-list": "^2.4.1",
+    "langs": "^2.0.0",
+    "leaflet": "^1.9.4",
+    "lucide-solid": "^1.7.0",
+    "puppeteer-core": "^24.40.0",
+    "solid-js": "^1.9.11",
+    "tailwindcss": "^4.1.18",
+    "vite-tsconfig-paths": "^5.1.4",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.5",
+    "@playwright/test": "^1.58.2",
+    "@tanstack/devtools-vite": "latest",
+    "@types/country-list": "^2.1.4",
+    "@types/langs": "^2.0.5",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^25.5.0",
+    "@types/puppeteer": "^5.4.7",
+    "puppeteer": "^24.40.0",
+    "typescript": "^5.7.2",
+    "vite": "^7.3.1",
+    "vite-plugin-solid": "^2.11.10"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "lightningcss"
+    ]
+  }
+}

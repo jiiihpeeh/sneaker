@@ -1,0 +1,45 @@
+.tabs-container {
+  overflow-x: auto;
+  border-bottom: 1px solid rgba(16, 50, 65, 0.2);
+  padding: 0.5rem 0;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .tabs-container {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: max-content;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+  color: var(--sea-ink-soft);
+  white-space: nowrap;
+}
+
+.tab:hover {
+  background: rgba(16, 50, 65, 0.05);
+  color: var(--sea-ink);
+}
+
+.tab.active {
+  background: var(--lagoon-pale);
+  color: var(--lagoon-deep);
+}

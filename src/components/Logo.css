@@ -1,0 +1,24 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  object-fit: contain;
+}
+
+.logo-sm img {
+  width: 24px;
+  height: 24px;
+}
+
+.logo-md img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-lg img {
+  width: 64px;
+  height: 64px;
+}

@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports:
+      - "4444:4444"
+    environment:
+      - NODE_ENV=production
+      - DEGOOG_DEFAULT_SEARCH_LANGUAGE=en
+      - BETTER_AUTH_SECRET=docker-dev-secret-change-in-production
+    restart: unless-stopped

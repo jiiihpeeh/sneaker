@@ -1,0 +1,140 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar-card {
+  background: white;
+  border: 1px solid rgba(16, 50, 65, 0.1);
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+}
+
+@media (min-width: 1024px) {
+  .sidebar-card {
+    padding: 1rem;
+  }
+}
+
+.sidebar-card-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--sea-ink);
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .sidebar-card-title {
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* Knowledge Panel */
+.knowledge-panel-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--sea-ink);
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .knowledge-panel-title {
+    font-size: 1.125rem;
+  }
+}
+
+.knowledge-panel-image {
+  width: 100%;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 1024px) {
+  .knowledge-panel-image {
+    height: 8rem;
+  }
+}
+
+.knowledge-panel-description {
+  font-size: 0.875rem;
+  color: var(--sea-ink);
+  margin-bottom: 0.75rem;
+}
+
+.knowledge-panel-link {
+  font-size: 0.875rem;
+  color: var(--lagoon-deep);
+}
+
+.knowledge-panel-link:hover {
+  text-decoration: underline;
+}
+
+/* Related Searches */
+.related-searches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+@media (min-width: 1024px) {
+  .related-searches {
+    gap: 0.5rem;
+  }
+}
+
+.related-search-link {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(16, 50, 65, 0.3);
+  background: rgba(16, 50, 65, 0.05);
+  color: var(--sea-ink);
+  font-size: 0.75rem;
+  transition: background 0.2s;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 1024px) {
+  .related-search-link {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+  }
+}
+
+.related-search-link:hover {
+  background: rgba(16, 50, 65, 0.1);
+}
+
+/* Engine Stats */
+.engine-stats-time {
+  font-size: 0.875rem;
+  color: var(--sea-ink-soft);
+  margin-bottom: 0.5rem;
+}
+
+.engine-stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.engine-stat-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.engine-stat-name {
+  color: var(--sea-ink);
+}
+
+.engine-stat-detail {
+  color: var(--sea-ink-soft);
+}
